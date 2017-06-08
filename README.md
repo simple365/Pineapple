@@ -8,6 +8,9 @@ Java Cucumber自动化框架，用于测试Dubbo，http，mq，jdbc的自动化�
 4. Rabbit Mq
 5. 数据库操作（mysql ,oracle）
 
-若有改进意见和关键字需要新增的，欢迎邮件联系
+若有改进意见和关键字需要新增的，欢迎邮件联系我
+
 Tom Luo
+
 aboard123@hotmail.com
+
