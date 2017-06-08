@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" verbose="1">
+	<test name="bddTest">
+
+		<classes>
+			<class name="com.tom.runner.SingleTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

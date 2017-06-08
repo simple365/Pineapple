@@ -1,0 +1,8 @@
+@And("调用接口%s方法%s，参数:(.+)")
+public void %s(String paraJson) {
+		DubboIdentityDto dto=TestContext.getInstance().getDubboHandle().parseDubboParams(paraJson);
+		dto.setInterfaceName("%s");
+		dto.setMethodName("%s");
+		TestContext.getInstance().getDubboHandle().dubboExecute(dto);
+}
+
